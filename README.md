@@ -1,5 +1,5 @@
 # mattlub.github.io
 
-GitHub pages repo
+Currently an index of some of my other projects.
 
 https://mattlub.github.io/
