@@ -1,0 +1,96 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+div {
+    border: 0px solid black;
+}
+
+h1 {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 200;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0.5em;
+}
+
+.container {
+    width: 100%;
+    margin: 10px auto 100px auto;
+}
+
+.summary {
+    text-align:center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+.project {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.text-section {
+    display: inline-block;
+    width: 70%;
+    margin-left: 10px;
+    vertical-align: top;
+    
+}
+
+.image-section {
+    display:inline-block;
+    width: 100px;
+}
+
+.image-container {
+    margin: 5px;
+    border: 0px solid #b3FF9D;
+    display:inline-block;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.image-container:hover {
+    margin: 2px;
+    border: 3px solid #b3FF9D;
+}
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #3EBD22;
+}
+
+@media (min-width: 666px) {
+
+    .summary {
+        width: 550px;
+    }
+
+    .project {
+        width: 650px;
+    }
+    
+    .image-section {
+        width: 100px;
+    }
+    
+    .text-section {
+        width: 530px;
+    }
+    
+}
