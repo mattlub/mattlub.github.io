@@ -23,14 +23,23 @@ div {
 --------------------------- */
 
 .header-container {
+    background-color: #ffffff;
+    -webkit-transition: all 1s ease;
+}
+
+body.dark .header-container {
     background-color: #000238;
+}
+
+body.dark .main-title {
+    color: white;
 }
 
 .main-title {
     padding-top: 1em;
     margin: 0px auto;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 #darkify-button{
@@ -52,7 +61,7 @@ div {
     height: 50px;
     background-color: #5A006B;
     box-sizing: border-box;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
     -webkit-transition: all 1s ease;
     overflow-x: auto;
     overflow-y:hidden;
@@ -103,8 +112,12 @@ div {
 --------------------------- */
 
 .content-container {
-    margin: 1.5em auto 2em auto;
+    margin: 0em auto 2em auto;
     text-align: justify;
+}
+
+.main-image {
+    width: 100%;
 }
 
 
@@ -113,9 +126,15 @@ div {
 
 .section-container {
     width: 90%;
-    margin: 10px auto;
+    margin: 0px auto;
     text-align:justify;
     border-bottom: 3px solid #41BF2D;
+}
+
+#image-section {
+    width: 100%;
+    max-width: none;
+    border-bottom: 0px;
 }
 
 .projects-container {
@@ -138,6 +157,16 @@ div {
     -webkit-transition: all 0.3s ease;
     margin-bottom: 1em;
     background-color: #ffffff;
+}
+
+
+.logos-container {
+    margin-top: 15px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 .project.dark {
@@ -267,7 +296,7 @@ footer p {
     
     .section-container {
         width: 65%;
-        max-width: 550px;
+        max-width: 500px;
         margin: 0px auto;
     }
 
