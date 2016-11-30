@@ -27,14 +27,6 @@ div {
     -webkit-transition: all 1s ease;
 }
 
-body.dark .header-container {
-    background-color: #000238;
-}
-
-body.dark .main-title {
-    color: white;
-}
-
 .main-title {
     padding-top: 1em;
     margin: 0px auto;
@@ -49,7 +41,7 @@ body.dark .main-title {
 }
 
 #navbar-ghost {
-    height: 50px;
+    height: 60px;
 }
 
 .hidden {
@@ -58,21 +50,13 @@ body.dark .main-title {
 
 .nav-container {
     text-align:center;
-    height: 50px;
-    background-color: #5A006B;
+    height: 60px;
+    background-color:white;
     box-sizing: border-box;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 3px solid black;
     -webkit-transition: all 1s ease;
     overflow-x: auto;
     overflow-y:hidden;
-}
-
-.nav-container.dark {
-    border-bottom: 1px solid white;
-}
-
-.nav-container.dark a {
-    color: white;
 }
 
 .nav {
@@ -91,10 +75,9 @@ body.dark .main-title {
 
 .nav a {
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
-    color: white;
-    text-transform: uppercase;
+    color: black;
     margin: 0em 0.5em;
     -webkit-transition: all 0.3s ease;
 }
@@ -107,6 +90,22 @@ body.dark .main-title {
     display:none;
 }
 
+body.dark .header-container {
+    background-color: #000238;
+}
+
+body.dark .main-title {
+    color: white;
+}
+
+body.dark .nav a {
+    color: white;
+}
+
+body.dark .nav-container {
+    background-color: #5A006B;
+    border-bottom: 3px solid white;
+}
 
 /* CONTENT AREA
 --------------------------- */
@@ -120,8 +119,7 @@ body.dark .main-title {
     width: 100%;
 }
 
-
-/* general sections- eg about, projects
+/* SECTIONS AND PROJECTS
 --------------------------- */
 
 .section-container {
@@ -169,10 +167,6 @@ body.dark .main-title {
     height: 40px;
 }
 
-.project.dark {
-    background-color: #000;
-}
-
 .project:hover {
     border: 2px solid #abff77;
 }
@@ -181,11 +175,15 @@ body.dark .main-title {
     line-height: 1.6;
 }
 
+body.dark .project {
+    background-color: #000;
+}
+
 
 /* special font styles
 --------------------------- */
 
-.cool {
+.bold {
     font-weight: 700;
 }
 
@@ -200,17 +198,6 @@ body.dark .main-title {
     color: #779999;
 }
 
-.redd {
-    color:#FF1414;
-}
-
-.blue {
-    color: blue;
-}
-
-.green {
-    color: #41BF2D;
-}
 
 
 /* footer
@@ -223,10 +210,6 @@ body.dark .main-title {
     background-color: #ffffff;
     text-align: center;
     -webkit-transition: all 1s ease;
-}
-
-.footer-container.dark {
-    background-color: #0C0C0C;
 }
 
 .social-links a {
@@ -252,6 +235,9 @@ footer p {
     font-size: 0.7em;
 }
 
+body.dark .footer-container {
+    background-color: #0C0C0C;
+}
 
 /* media queries
 --------------------------- */
@@ -290,8 +276,8 @@ footer p {
         margin-right: auto;
     }
     
-    .content-container {
-        
+    .nav a{
+        margin: 0em 1em;
     }
     
     .section-container {

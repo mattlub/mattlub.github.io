@@ -4,14 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var FPS = 10;
     var ANIMATION_DURATION = 200;
     
-    // copied from SO, good method to get height of document which is more consistent 
-    // across browsers
-    var body = document.body,
-        html = document.documentElement;
-    var bodyHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight );
-    var windowHeight = window.innerHeight;
-    
-    // navbar fixing and auto-scrolling logic
+    // navbar fixing logic
     var nav = document.getElementById("navbar");
     var navGhost = document.getElementById("navbar-ghost");
     var navOffsetTop = nav.offsetTop;
@@ -44,17 +37,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // add functionality for darkify button
     var darkifyButton = document.getElementById("darkify-button");
     darkifyButton.addEventListener("click", darkify);
-    var navContainer = document.getElementsByClassName("nav-container")[0];
-    var footerContainer = document.getElementsByClassName("footer-container")[0];
-    var projectsArray = document.getElementsByClassName("project");
     
     function darkify () {
         document.body.classList.toggle("dark");
-        // navContainer.classList.toggle("dark");
-        footerContainer.classList.toggle("dark"); 
-        for (var i=0; i<projectsArray.length; i++) {
-            projectsArray[i].classList.toggle("dark");
-        }    
     }
     
     // add functionality for clicking nav buttons
@@ -96,11 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 window.clearInterval(intervalId);
             } 
         }, refreshTime);
-    };
-      
-    // add logic for window resize
-    window.onresize = updateVariables;
-    function updateVariables () {   
     };
      
 });
