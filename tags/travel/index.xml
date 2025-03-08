@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on basic bare bones blog</title>
+    <link>https://mattlub.github.io/tags/travel/</link>
+    <description>Recent content in Travel on basic bare bones blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Mar 2025 23:34:33 +0100</lastBuildDate>
+    <atom:link href="https://mattlub.github.io/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First</title>
+      <link>https://mattlub.github.io/posts/my-first/</link>
+      <pubDate>Sat, 08 Mar 2025 23:34:33 +0100</pubDate>
+      <guid>https://mattlub.github.io/posts/my-first/</guid>
+      <description>&lt;h3 id=&#34;what-an-exciting-start&#34;&gt;What an exciting start!&lt;/h3&gt;&#xA;&lt;p&gt;This blog will be amazing, no doubt&amp;hellip;&#xA;But I can&amp;rsquo;t really remember &lt;em&gt;Markdown&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second</title>
+      <link>https://mattlub.github.io/posts/second/</link>
+      <pubDate>Sat, 08 Mar 2025 23:34:33 +0100</pubDate>
+      <guid>https://mattlub.github.io/posts/second/</guid>
+      <description>&lt;h3 id=&#34;what-an-exciting-second&#34;&gt;What an exciting second!&lt;/h3&gt;&#xA;&lt;p&gt;This blog will be amazing, no doubt&amp;hellip;&#xA;But I can&amp;rsquo;t really remember &lt;em&gt;Markdown&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
